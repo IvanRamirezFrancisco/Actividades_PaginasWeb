@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f1f1f1;
+  }
+  
+  h1 {
+    color: #333;
+    text-align: center;
+    margin-top: 0;
+  }
+  
+  h2 {
+    color: #030303;
+    margin-top: 0;
+  }
+  
+  #Adivinanza {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #9b8c8c93;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  #Adivinanza input[type="number"],
+  #Adivinanza button {
+    padding: 10px;
+
+    margin: 40px;
+    margin-right: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+  }
+  
+  #resultado {
+    margin-top: 20px;
+  }
