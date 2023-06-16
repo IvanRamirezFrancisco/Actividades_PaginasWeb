@@ -1,0 +1,57 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+
+  .container-header h1 {
+    color: #333;
+  }
+  
+  .container-header .img {
+    max-width: 200px;
+    display: block;
+    margin: 0 auto;
+  }
+
+.container-header {
+    text-align: center;
+  }
+  
+  
+  /* Estilos para el cuerpo */
+  .container-body {
+    margin-top: 20px;
+  }
+  
+  .Subtitle {
+    color: #555;
+  }
+  
+  .container-body input[type="number"],
+  .container-body input[type="button"] {
+    margin: 5px;
+    padding: 10px;
+  }
+  
+  #resultado {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
+  /* Estilos para el pie de página */
+  .container-footer {
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .container-footer h2 {
+    color: #777;
+  }
+  
+  .container-footer .logo {
+    max-width: 100px;
+    display: block;
+    margin: 0 auto;
+  }
