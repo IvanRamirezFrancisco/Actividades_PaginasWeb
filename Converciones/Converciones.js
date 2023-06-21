@@ -1,14 +1,15 @@
 function calcular(){
 
-    var pes = parseFloat(document.convertidor.pesos.value)*1;
+    var pes = parseFloat(document.convertidor.pesos.value);
+    var dolar= parseFloat(document.convertidor.ValorDolar.value);
 
-    if(pes==0) 
+    if(isNaN(pes) || pes === 0) 
     {
         alert("No lleno nada, Ingrese le numero porfavor")
     }
     else
     {
-        var tot = pes / 17.24;
+        var tot = pes / dolar;
         tot = tot.toFixed(2);
 
         document.convertidor.dolar.value=tot;
@@ -21,7 +22,7 @@ function calcular2(){
 
     var dol = parseFloat(document.convertidor.dolar2.value)*1;
     
-    if(dol==0)
+    if(isNaN(dol) || dol === 0)
     {
         alert("No lleno nada, Ingrese le numero porfavor")
     }
